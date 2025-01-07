@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'An awesome SDK for EZLinks integration.'
+  s.description      = 'EZLinksSDK provides seamless integration with EZLinks, offering APIs for booking, scheduling, and managing golf services with ease.'
   s.homepage         = 'https://github.com/rup2701/EZLinksSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -36,4 +36,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire', '~> 5.6'
+  s.swift_versions   = ['5.0']
 end
