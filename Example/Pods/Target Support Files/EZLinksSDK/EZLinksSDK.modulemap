@@ -1,0 +1,6 @@
+framework module EZLinksSDK {
+  umbrella header "EZLinksSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

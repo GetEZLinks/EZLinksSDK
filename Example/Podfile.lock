@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.10.2)
+  - EZLinksSDK (1.0.0):
+    - Alamofire (~> 5.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6)
+  - EZLinksSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  EZLinksSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  EZLinksSDK: aa19de1922d9106f74b3bda7f72f97ebb7749171
+
+PODFILE CHECKSUM: 15d105f36bb2e65788a963f3b711ac07cc9d82a7
+
+COCOAPODS: 1.16.2
