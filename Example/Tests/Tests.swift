@@ -1,5 +1,5 @@
 import XCTest
-import EZLinksSDK
+//import EZLinksSDK
 
 class Tests: XCTestCase {
     

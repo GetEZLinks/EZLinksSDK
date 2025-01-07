@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/rup2701/EZLinksSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ezlinks' => 'rupesh@ezlinks.link' }
+  s.author           = { 'ezlinks' => 'rupesh@getezlinks.io' }
   s.source           = { :git => 'https://github.com/rup2701/EZLinksSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
   s.source_files = 'EZLinksSDK/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'EZLinksSDK' => ['EZLinksSDKPod/Assets/*.png']
+  #   'EZLinksSDK' => ['EZLinksSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 5.6'
+  s.dependency 'Alamofire', '~> 5.6'
 end
