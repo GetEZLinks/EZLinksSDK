@@ -32,7 +32,7 @@
 		13250F9035BE70A60E8CB2D4 /* Pods_EZLinksSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZLinksSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AC42D2FADBE7D208D804C6 /* Pods-EZLinksSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZLinksSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-EZLinksSDK_Example/Pods-EZLinksSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1B1464A1112FC1D13A3A4110 /* Pods_EZLinksSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZLinksSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		369FC85EF2BA2D92C50760AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		369FC85EF2BA2D92C50760AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EZLinksSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZLinksSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6EF3A64741C859B37D271DC3 /* Pods-EZLinksSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZLinksSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EZLinksSDK_Tests/Pods-EZLinksSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83CA244105F0B232E574A3C2 /* EZLinksSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EZLinksSDK.podspec; path = ../EZLinksSDK.podspec; sourceTree = "<group>"; };
+		83CA244105F0B232E574A3C2 /* EZLinksSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EZLinksSDK.podspec; path = ../EZLinksSDK.podspec; sourceTree = "<group>"; };
 		F34C8D345FDC88A609DC0537 /* Pods-EZLinksSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZLinksSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-EZLinksSDK_Example/Pods-EZLinksSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB2C3D6D0B21D8A9474C3622 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB2C3D6D0B21D8A9474C3622 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				6EF3A64741C859B37D271DC3 /* Pods-EZLinksSDK_Tests.debug.xcconfig */,
 				0F21075240250FB7BDCAA8EF /* Pods-EZLinksSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A2AK6QNWF5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A2AK6QNWF5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = F34C8D345FDC88A609DC0537 /* Pods-EZLinksSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2AK6QNWF5;
 				INFOPLIST_FILE = EZLinksSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 17AC42D2FADBE7D208D804C6 /* Pods-EZLinksSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2AK6QNWF5;
 				INFOPLIST_FILE = EZLinksSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EF3A64741C859B37D271DC3 /* Pods-EZLinksSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = A2AK6QNWF5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +535,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F21075240250FB7BDCAA8EF /* Pods-EZLinksSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = A2AK6QNWF5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
