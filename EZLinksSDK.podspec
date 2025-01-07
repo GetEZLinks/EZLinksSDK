@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'EZLinksSDKPod/Classes/**/*'
+  s.source_files = 'EZLinksSDK/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'EZLinksSDKPod' => ['EZLinksSDKPod/Assets/*.png']
+  #   'EZLinksSDK' => ['EZLinksSDKPod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
