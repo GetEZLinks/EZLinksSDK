@@ -22,7 +22,7 @@ pod 'EZLinksSDK'
 
 ## Author
 
-rup2701, rupesh@creativegray.com
+EZLinks, rupesh@getezlinks.io
 
 ## License
 
